@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="760" viewBox="0 0 1440 760" role="img" aria-labelledby="title desc">
+  <title id="title">The SDLC bottleneck shifts away from coding</title>
+  <desc id="desc">An original comparison showing build time collapsing while planning, testing and deployment remain at human speed.</desc>
+  <rect width="1440" height="760" rx="32" fill="#f7f4ef"/>
+  <text x="80" y="82" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="700" fill="#1f2e29">When Build collapses, the bottleneck moves</text>
+  <text x="80" y="124" font-family="Inter, Arial, sans-serif" font-size="20" fill="#5f6e69">Coding acceleration only creates end-to-end value when adjacent stages change too</text>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="80" y="215" font-size="24" font-weight="700" fill="#1f2e29">Traditional SDLC</text>
+    <g transform="translate(80,245)">
+      <rect x="0" y="0" width="180" height="92" rx="18" fill="#dcebe4"/>
+      <rect x="195" y="0" width="180" height="92" rx="18" fill="#f3dfd1"/>
+      <rect x="390" y="0" width="420" height="92" rx="18" fill="#9f6a52"/>
+      <rect x="825" y="0" width="180" height="92" rx="18" fill="#dce8f4"/>
+      <rect x="1020" y="0" width="180" height="92" rx="18" fill="#f0e8ca"/>
+      <rect x="1215" y="0" width="145" height="92" rx="18" fill="#f0dfe3"/>
+      <g font-size="18" font-weight="700" text-anchor="middle" fill="#26342f">
+        <text x="90" y="55">Plan</text><text x="285" y="55">Design</text>
+        <text x="600" y="55" fill="#ffffff">Build</text><text x="915" y="55">Test</text>
+        <text x="1110" y="55">Deploy</text><text x="1288" y="55">Maintain</text>
+      </g>
+    </g>
+
+    <text x="80" y="445" font-size="24" font-weight="700" fill="#1f2e29">AI-native pressure</text>
+    <g transform="translate(80,475)">
+      <rect x="0" y="0" width="250" height="92" rx="18" fill="#dcebe4"/>
+      <rect x="265" y="0" width="245" height="92" rx="18" fill="#f3dfd1"/>
+      <rect x="525" y="0" width="95" height="92" rx="18" fill="#9f6a52"/>
+      <rect x="635" y="0" width="260" height="92" rx="18" fill="#dce8f4"/>
+      <rect x="910" y="0" width="265" height="92" rx="18" fill="#f0e8ca"/>
+      <rect x="1190" y="0" width="170" height="92" rx="18" fill="#f0dfe3"/>
+      <g font-size="18" font-weight="700" text-anchor="middle" fill="#26342f">
+        <text x="125" y="55">Plan</text><text x="387" y="55">Design</text>
+        <text x="572" y="55" fill="#ffffff">Build</text><text x="765" y="55">Test / Review</text>
+        <text x="1042" y="55">Deploy</text><text x="1275" y="55">Maintain</text>
+      </g>
+    </g>
+    <path d="M572 590 C572 650, 830 650, 830 590" fill="none" stroke="#9f6a52" stroke-width="3" stroke-dasharray="8 8"/>
+    <text x="700" y="687" text-anchor="middle" font-size="20" font-weight="700" fill="#8c523b">Throughput moves faster than human-speed controls</text>
+  </g>
+
+  <text x="80" y="725" font-family="Inter, Arial, sans-serif" font-size="16" fill="#71807b">Original synthesis based on Anthropic’s “The AI-Native SDLC playbook” · 2026-09-18</text>
+</svg>
